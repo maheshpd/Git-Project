@@ -16,7 +16,8 @@ struct ContentView: View {
         NavigationView {
             Button("Show Model"){
                 self.isPresented = true
-            }.sheet(isPresented: $isPresented, content: {
+            }.foregroundColor(.red)
+            .sheet(isPresented: $isPresented, content: {
                 ModelView()
             })
             .navigationBarTitle("Xcode and Git")
