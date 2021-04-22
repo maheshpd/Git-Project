@@ -11,6 +11,7 @@
 		B538413F2631A5BC0008D03E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538413E2631A5BC0008D03E /* ContentView.swift */; };
 		B53841412631A5C20008D03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53841402631A5C20008D03E /* Assets.xcassets */; };
 		B53841442631A5C20008D03E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53841432631A5C20008D03E /* Preview Assets.xcassets */; };
+		B557E5112631AF0900C2E7C1 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557E5102631AF0900C2E7C1 /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B53841402631A5C20008D03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53841432631A5C20008D03E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B53841452631A5C20008D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B557E5102631AF0900C2E7C1 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				B538413C2631A5BC0008D03E /* Git_ProjectApp.swift */,
 				B538413E2631A5BC0008D03E /* ContentView.swift */,
+				B557E5102631AF0900C2E7C1 /* ModelView.swift */,
 				B53841402631A5C20008D03E /* Assets.xcassets */,
 				B53841452631A5C20008D03E /* Info.plist */,
 				B53841422631A5C20008D03E /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B557E5112631AF0900C2E7C1 /* ModelView.swift in Sources */,
 				B538413F2631A5BC0008D03E /* ContentView.swift in Sources */,
 				B538413D2631A5BC0008D03E /* Git_ProjectApp.swift in Sources */,
 			);
