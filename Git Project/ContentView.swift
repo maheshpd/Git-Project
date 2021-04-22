@@ -16,7 +16,7 @@ struct ContentView: View {
                 destination: ModelView(),
                 label: {
                     Text("Go Next")
-                }).foregroundColor(.green)
+                }).foregroundColor(.red)
             .navigationBarTitle("Xcode and Git")
             
         }
